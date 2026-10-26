@@ -1,0 +1,20 @@
+{
+  "appId": "pl.migrenownik.app",
+  "appName": "Migrenownik",
+  "webDir": "www",
+  "backgroundColor": "#060508",
+  "android": {
+    "backgroundColor": "#060508"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_migrenownik",
+      "iconColor": "#B0834A"
+    },
+    "SystemBars": {
+      "insetsHandling": "css",
+      "style": "DARK",
+      "initialViewportFitValueHint": "cover"
+    }
+  }
+}
